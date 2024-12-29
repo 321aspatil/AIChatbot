@@ -1,0 +1,308 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "Hey",
+        "How are you",
+        "Greetings",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "What's up"
+      ],
+      "responses": [
+        "Hello! How can I assist you with your PC today?",
+        "Hi there! Need help with your computer?",
+        "Hey! What PC issue are you facing?"
+      ]
+    },
+    {
+      "tag": "slow_performance",
+      "patterns": [
+        "Why is my PC slow?",
+        "How to fix a slow computer?",
+        "PC performance issues",
+        "Slow system",
+        "Computer lagging"
+      ],
+      "responses": [
+        "You can try clearing temporary files, disabling startup programs, or checking for malware.",
+        "A slow PC can be improved by adding more RAM or performing a disk cleanup.",
+        "Have you tried restarting your system or closing unnecessary applications?"
+      ]
+    },
+    {
+      "tag": "no_power",
+      "patterns": [
+        "My computer won't turn on",
+        "PC has no power",
+        "Computer not starting",
+        "What to do if my PC is dead?",
+        "PC won't boot up"
+      ],
+      "responses": [
+        "Check if the power cable is securely connected and the power outlet is working.",
+        "Ensure the power supply switch is turned on and the PSU is functional.",
+        "Try a different power cable or outlet to rule out electrical issues."
+      ]
+    },
+    {
+      "tag": "blue_screen",
+      "patterns": [
+        "What is a blue screen of death?",
+        "Why does my PC show a blue screen?",
+        "How to fix BSOD?",
+        "Blue screen error",
+        "PC crashes with blue screen"
+      ],
+      "responses": [
+        "A BSOD often indicates hardware or driver issues. Check recent changes or updates.",
+        "You can use the error code displayed to identify the problem.",
+        "Try booting into Safe Mode and updating or rolling back drivers."
+      ]
+    },
+    {
+      "tag": "overheating",
+      "patterns": [
+        "Why is my PC overheating?",
+        "How to fix an overheating computer?",
+        "Computer getting hot",
+        "PC fan running loud",
+        "Heat issues with my PC"
+      ],
+      "responses": [
+        "Ensure proper airflow by cleaning dust from fans and vents.",
+        "Check if your cooling system, like fans or liquid coolers, is functioning properly.",
+        "Avoid blocking vents and consider using a cooling pad for laptops."
+      ]
+    },
+    {
+      "tag": "no_internet",
+      "patterns": [
+        "Why can't I connect to the internet?",
+        "No internet connection",
+        "Wi-Fi not working",
+        "Ethernet not connecting",
+        "Internet issues on PC"
+      ],
+      "responses": [
+        "Check your router and modem to ensure they are powered on and functioning.",
+        "Try reconnecting to your Wi-Fi network or checking Ethernet cables.",
+        "Restarting your network devices often resolves connection problems."
+      ]
+    },
+    {
+      "tag": "software_crash",
+      "patterns": [
+        "Why does my software keep crashing?",
+        "Application not responding",
+        "Software freezes",
+        "Program crashes frequently",
+        "App won't run properly"
+      ],
+      "responses": [
+        "Check if the software is up to date or reinstall it to fix crashes.",
+        "Ensure your PC meets the minimum system requirements for the application.",
+        "Close unnecessary programs to free up resources for the application."
+      ]
+    },
+    {
+      "tag": "disk_space",
+      "patterns": [
+        "Why is my disk full?",
+        "How to free up disk space?",
+        "Low storage warning",
+        "PC out of space",
+        "Disk almost full"
+      ],
+      "responses": [
+        "You can use disk cleanup tools to remove temporary files and unnecessary data.",
+        "Uninstall unused programs and transfer large files to external storage.",
+        "Consider upgrading your storage drive if you frequently run out of space."
+      ]
+    },
+    {
+      "tag": "password_reset",
+      "patterns": [
+        "How to reset my Windows password?",
+        "Forgot my PC login password",
+        "Recover account on Windows",
+        "Can't log in to computer",
+        "Reset Windows password"
+      ],
+      "responses": [
+        "You can reset your password using a password reset disk or security questions.",
+        "If linked to a Microsoft account, reset your password online via Microsoft's website.",
+        "Consider creating a new user account if password recovery isn't possible."
+      ]
+    },
+    {
+      "tag": "shutdown_issue",
+      "patterns": [
+        "Why won't my PC shut down?",
+        "Computer stuck while shutting down",
+        "PC won't power off",
+        "Force shutdown of PC",
+        "Troubleshoot shutdown issues"
+      ],
+      "responses": [
+        "Ensure all applications are closed before attempting to shut down.",
+        "Try using the shutdown command in the command prompt.",
+        "Check for pending updates that might prevent shutdown."
+      ]
+    },
+    {
+      "tag": "keyboard_not_working",
+      "patterns": [
+        "Why is my keyboard not working?",
+        "Keyboard unresponsive",
+        "Keys not working on keyboard",
+        "How to fix a non-working keyboard?",
+        "Keyboard issues"
+      ],
+      "responses": [
+        "Check if the keyboard is properly connected to your PC.",
+        "Try a different USB port or replace the keyboard batteries if wireless.",
+        "Reinstall or update the keyboard drivers in Device Manager."
+      ]
+    },
+    {
+      "tag": "mouse_not_working",
+      "patterns": [
+        "Why is my mouse not working?",
+        "Mouse unresponsive",
+        "Cursor not moving",
+        "How to fix a non-working mouse?",
+        "Mouse issues"
+      ],
+      "responses": [
+        "Ensure the mouse is securely connected to your PC.",
+        "Try using the mouse on a different surface or replace the batteries if wireless.",
+        "Update or reinstall the mouse drivers in Device Manager."
+      ]
+    },
+    {
+      "tag": "audio_issues",
+      "patterns": [
+        "Why is there no sound on my PC?",
+        "Audio not working",
+        "No sound from speakers",
+        "How to fix audio issues?",
+        "PC sound problem"
+      ],
+      "responses": [
+        "Check if the volume is turned up and not muted.",
+        "Ensure the audio device is set as the default in sound settings.",
+        "Update or reinstall the audio drivers in Device Manager."
+      ]
+    },
+    {
+      "tag": "printer_not_working",
+      "patterns": [
+        "Why won't my printer work?",
+        "Printer not responding",
+        "Unable to print",
+        "How to fix printer issues?",
+        "Printer connection problem"
+      ],
+      "responses": [
+        "Check if the printer is powered on and properly connected to your PC.",
+        "Ensure the printer is set as the default and has enough paper and ink.",
+        "Reinstall the printer drivers or troubleshoot using the printer's software."
+      ]
+    },
+    {
+      "tag": "monitor_no_display",
+      "patterns": [
+        "Why is my monitor not displaying anything?",
+        "No display on monitor",
+        "Black screen on PC",
+        "Monitor not turning on",
+        "Troubleshoot monitor issues"
+      ],
+      "responses": [
+        "Ensure the monitor is powered on and connected to the PC.",
+        "Check the cable connections and try a different cable or port.",
+        "Verify that the PC is turned on and not in sleep mode."
+      ]
+    },
+    {
+      "tag": "usb_device_not_detected",
+      "patterns": [
+        "Why won't my USB device work?",
+        "USB device not detected",
+        "PC won't recognize USB device",
+        "How to fix USB connection issues?",
+        "USB not working"
+      ],
+      "responses": [
+        "Try connecting the USB device to a different port.",
+        "Check if the USB device is functioning on another computer.",
+        "Update or reinstall USB drivers in Device Manager."
+      ]
+    },
+    {
+      "tag": "network_adapter_issues",
+      "patterns": [
+        "Why is my network adapter not working?",
+        "Network adapter not detected",
+        "Wi-Fi adapter issues",
+        "Ethernet not connecting",
+        "How to fix network adapter problems?"
+      ],
+      "responses": [
+        "Check if the network adapter is enabled in Device Manager.",
+        "Update or reinstall the network adapter drivers.",
+        "Restart your PC and router to resolve connection issues."
+      ]
+    },
+    {
+      "tag": "update_failure",
+      "patterns": [
+        "Why won't my PC update?",
+        "Windows update failed",
+        "Unable to install updates",
+        "How to fix update issues?",
+        "PC update problem"
+      ],
+      "responses": [
+        "Ensure you have enough disk space for the update.",
+        "Run the Windows Update troubleshooter to identify the issue.",
+        "Try restarting your PC and installing updates again."
+      ]
+    },
+    {
+      "tag": "battery_drain",
+      "patterns": [
+        "Why is my laptop battery draining fast?",
+        "Battery issues on laptop",
+        "How to extend battery life?",
+        "Laptop battery not lasting long",
+        "Battery draining quickly"
+      ],
+      "responses": [
+        "Lower the screen brightness and close unnecessary programs to save battery.",
+        "Check for power-hungry applications in Task Manager.",
+        "Consider replacing the battery if it's old or worn out."
+      ]
+    },
+    {
+      "tag": "peripherals_not_working",
+      "patterns": [
+        "My peripherals are not responding",
+        "Why aren't my devices working?",
+        "Keyboard, mouse, and printer issues",
+        "How to troubleshoot peripherals?",
+        "Device connection problems"
+      ],
+      "responses": [
+        "Check the connections and restart your PC to detect peripherals.",
+        "Ensure drivers for all peripherals are up to date.",
+        "Try using the devices on another computer to verify their functionality."
+      ]
+    }
+  ]
+}
